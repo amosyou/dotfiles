@@ -22,6 +22,7 @@ set ttyfast                 " Speed up scrolling in Vim
 "Plugin Section
 call plug#begin('~/.config/nvim/plugged')
 Plug 'rakr/vim-one'
+Plug 'overcache/NeoSolarized'
 Plug 'ryanoasis/vim-devicons'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -49,7 +50,7 @@ endif
 
 
 set background=dark
-colorscheme one
+colorscheme NeoSolarized
 "autocmd VimEnter * NERDTree
 
 "NERDTree Shortcuts
